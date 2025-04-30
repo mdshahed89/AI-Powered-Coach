@@ -38,7 +38,7 @@ const HeroSection: React.FC = () => {
             </div>
             <div className=" flex items-center gap-7 ">
               <div className=" shadow-md p-3 rounded-xl ">
-                <Image src={HeroIcon1} alt="Hero Icon 1" />
+                <Image src={HeroIcon2} alt="Hero Icon 1" />
               </div>
               <div>
                 <p className=" text-[1.8rem] font-medium ">2000+</p>

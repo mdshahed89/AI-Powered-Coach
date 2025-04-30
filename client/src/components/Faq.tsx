@@ -11,17 +11,17 @@ const Faq = () => {
     {
       title: "Why should I choose Humestic?",
       description:
-        "Bottleneck mice my capacity is full, nor incentivization we need to start advertising on social media, or helicopter view, for what the. Let's put a pin in that we need to build it so that it scales, are there any leftovers in the kitchen?, if you're not hurting you're not winning loop back",
+        "Bottleneck mice my capacity is full, nor incentivization we need to start advertising on social media, or helicopter view, for what the. Lets put a pin in that we need to build it so that it scales, are there any leftovers in the kitchen?, if you're not hurting you're not winning loop back",
     },
     {
       title: "I like your works, how do we start a project?",
       description:
-        "Bottleneck mice my capacity is full, nor incentivization we need to start advertising on social media, or helicopter view, for what the. Let's put a pin in that we need to build it so that it scales, are there any leftovers in the kitchen?, if you're not hurting you're not winning loop back",
+        "Bottleneck mice my capacity is full, nor incentivization we need to start advertising on social media, or helicopter view, for what the. Let's put a pin in that we need to build it so that it scales, are there any leftovers in the kitchen?, if you are not hurting you are not winning loop back",
     },
     {
       title: "What info is required to get a quotation?",
       description:
-        "Bottleneck mice my capacity is full, nor incentivization we need to start advertising on social media, or helicopter view, for what the. Let's put a pin in that we need to build it so that it scales, are there any leftovers in the kitchen?, if you're not hurting you're not winning loop back",
+        "Bottleneck mice my capacity is full, nor incentivization we need to start advertising on social media, or helicopter view, for what the. Lets put a pin in that we need to build it so that it scales, are there any leftovers in the kitchen?, if you are not hurting you are not winning loop back",
     },
   ];
   const toggle = (idx: number) => {
@@ -36,12 +36,16 @@ const Faq = () => {
           <p>questions</p>
         </div>
         <h2 className=" text-[2rem] lg:text-[3rem] font-light text-[#111] max-w-[30rem] lg:max-w-[52rem] mx-auto text-center leading-tight ">
-          Constant collaboration is how we roll. Let's see if we are a good fit.
+          Constant collaboration is how we roll. Let&apos;s see if we are a good
+          fit.
         </h2>
 
         <div className=" mt-[3rem] md:mt-[5rem] mx-auto w-full rounded-lg">
           {dataArr.map((PerAccordion, idx) => (
-            <div key={idx} className=" mb-3 md:mb-8 border-b px-1 md:px-3 py-3  text-[#111] ">
+            <div
+              key={idx}
+              className=" mb-3 md:mb-8 border-b px-1 md:px-3 py-3  text-[#111] "
+            >
               <button
                 onClick={() => toggle(idx)}
                 className="flex h-full w-full items-center justify-between font-medium  outline-none"
@@ -101,7 +105,7 @@ const testimonials = [
 
 const Testimonial = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [direction, setDirection] = useState(0); // -1 for left, 1 for right
+  const [direction, setDirection] = useState(0);
   const total = testimonials.length;
 
   const paginate = (dir: number) => {

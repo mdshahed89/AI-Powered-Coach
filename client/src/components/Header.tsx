@@ -1,5 +1,5 @@
 "use client";
-import { FaBars, FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 import Link from "next/link";
 import Image from "next/image";
