@@ -27,7 +27,7 @@ const HeroSection: React.FC = () => {
             </p>
           </div>
           <div className=" mt-[3rem] lg:mt-[6rem] flex items-center w-full lg:mx-0 mx-auto max-w-[32rem] justify-between ">
-            <div className=" flex items-center gap-7 ">
+            <div className=" flex items-center gap-3 md:gap-7 ">
               <div className=" shadow-md p-3 rounded-xl ">
                 <Image src={HeroIcon1} alt="Hero Icon 1" />
               </div>
@@ -36,7 +36,7 @@ const HeroSection: React.FC = () => {
                 <p className=" text-[#05131d]/70 ">Your protection</p>
               </div>
             </div>
-            <div className=" flex items-center gap-7 ">
+            <div className=" flex items-center gap-3 md:gap-7 ">
               <div className=" shadow-md p-3 rounded-xl ">
                 <Image src={HeroIcon2} alt="Hero Icon 1" />
               </div>
