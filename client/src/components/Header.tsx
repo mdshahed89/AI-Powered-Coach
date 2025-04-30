@@ -4,7 +4,7 @@ import { FaBars, FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 import { RxCross2 } from "react-icons/rx";
-import Logo from "@/assets/logo.png";
+import Logo from "@/assets/Logo.png";
 import { useEffect, useState } from "react";
 import { HiMiniBars3BottomRight } from "react-icons/hi2";
 import { BsTwitterX } from "react-icons/bs";

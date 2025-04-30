@@ -3,7 +3,7 @@ import { FaFacebookF, FaPhoneAlt } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
-import Logo from "@/assets/logo.png";
+import Logo from "@/assets/Logo.png";
 import { IoMdArrowUp } from "react-icons/io";
 import Image from "next/image";
 import { IoLocationSharp } from "react-icons/io5";
