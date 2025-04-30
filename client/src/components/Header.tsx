@@ -55,8 +55,8 @@ const Header = () => {
             </ul>
           </nav>
         </div>
-        <div className=" flex items-center gap-6 pr-2 ">
-          <div className=" px-6 py-2 border border-[#111] rounded-full ">
+        <div className=" flex items-center gap-4 md:gap-6 pr-2 ">
+          <div className=" px-4 md:px-6 py-2 border border-[#111] rounded-full ">
             Get Started
           </div>
           <div className="lg:hidden" onClick={() => setMenuOpen(!menuOpen)}>
@@ -67,17 +67,24 @@ const Header = () => {
 
       {/* Sidebar */}
       <div
-        className={`fixed top-0 right-0 w-full lg:hidden  bg-[#fff] text-[#111] p-5 transition-all duration-300 h-[100vh] overflow-y-auto flex flex-col justify-between ${
+        className={`fixed top-0 right-0 w-full lg:hidden  bg-[#fff] text-[#111] py-5 transition-all duration-300 h-[100vh] overflow-y-auto flex flex-col justify-between ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
         <div className="   ">
-          <div className="flex justify-end">
+          <div className="flex items-center justify-between pl-2 pr-5 ">
+          <Link href={"/"} className=" w-auto h-auto ">
+            <Image
+              src={Logo}
+              alt="Sidesone - Profesjonelle nettsider, nettbutikker og webapper"
+              className="w-[211px] h-[35px] object-contain"
+            />
+          </Link>
             <button onClick={() => setMenuOpen(false)}>
               <RxCross2 className="text-[2rem] cursor-pointer" />
             </button>
           </div>
-          <ul className="flex flex-col mt-7 space-y-6 ">
+          <ul className="flex flex-col mt-14 px-5 text-[#111] space-y-6 ">
             <li className="relative group ">
               <div
                 className={`flex items-center justify-between pb-2 cursor-pointer text-[1.4rem] 

@@ -197,13 +197,13 @@ const Other = () => {
           Quick Actions
         </h3>
         <div className=" grid grid-cols-2 gap-3 mt-6 ">
-          <div className=" bg-[#fff] p-3 rounded-xl text-[1.3rem] space-y-2 ">
-            <FaFileContract className=" text-[#002868] " />
-            <h4 className=" text-[1.2rem] font-medium ">Generate Script</h4>
+          <div className=" bg-[#fff] p-3 rounded-xl space-y-2 ">
+            <FaFileContract className=" text-[#002868] text-[1.5rem] " />
+            <h4 className=" text-[1rem] font-medium ">Generate Script</h4>
           </div>
           <div className=" bg-[#fff] p-3 rounded-xl text-[1.3rem] space-y-2 ">
-            <TbMessageFilled className=" text-[#002868] " />
-            <h4 className=" text-[1.2rem] font-medium ">Generate Script</h4>
+            <TbMessageFilled className=" text-[#002868] text-[1.5rem] " />
+            <h4 className=" text-[1rem] font-medium ">Practice Pitch</h4>
           </div>
         </div>
       </div>
