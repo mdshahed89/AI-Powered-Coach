@@ -47,11 +47,11 @@ const Header = () => {
             }`}
           >
             <ul className="flex items-center space-x-8 font-medium ">
-              <li className="relative group">Home</li>
-              <li className="relative group">About</li>
-              <li className="relative group">Pricing</li>
-              <li className="relative group">Consulting</li>
-              <li className="relative group">Ai Coach</li>
+              <Link href={`/`} className="relative group">Home</Link>
+              <Link href={`/`} className="relative group">About</Link>
+              <Link href={`/`} className="relative group">Pricing</Link>
+              <Link href={`/`} className="relative group">Consulting</Link>
+              <Link href={`/`} className="relative group">Ai Coach</Link>
             </ul>
           </nav>
         </div>
